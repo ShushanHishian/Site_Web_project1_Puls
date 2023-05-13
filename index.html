@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en" lang="rus">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puls and Sport</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap-grid.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap-reboot.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f7f757f07c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/blocks/fonts.css">
+    <link rel="stylesheet" type="text/css" href="./css/blocks/slick.css">
+    <link rel="stylesheet" type="text/css" href="./css/blocks/animate.css">
+    <!--     <link rel="stylesheet" type="text/css" href="./css/blocks/slick-theme.css"> -->
+    <link rel="stylesheet" href="./css/blocks/style.css">
+
+</head>
+
+<body>
+
+    <section id="up" class="promo">
+        <div class="container">
+            <header class="header">
+
+                <a href="#" class="header_logo">
+                    <img src="./icons/logo.png" alt="logo">
+                </a>
+
+                <div class="header_official">
+                    Représental officiel
+                    <span>Garmin, Polar,Suunto</span>
+                </div>
+
+                <div class="header_contacts">
+                    <a href="tel:+337655861435" class="header__phone">+33 76 558 61 35</a>
+                    <button data-modal="consultation" class="button">Demander un appel</button>
+                </div>
+
+            </header>
+
+            <div class="promo__wrapper">
+                <h1 class="promo__header">SÉLECTION DU MÈTRE DE FRÉQUENCE CARDIAQUE </h1>
+                <h2 class="promo__subheader">SELON VOTRE NIVEAU DE PRÉPARATION </h2>
+                <div class="promo__icons">
+                    <div class="promo__icon"><img src="./images/019_timer_time_stopwatch_2-64.png" alt="photo">Temps de
+                        ramassage 10 minutes</div>
+                    <div class="promo__icon"><img src="./images/cart.png" alt="photo">Livraison gratuite</div>
+                    <div class="promo__icon"><img src="./images/019_timer_time_stopwatch_2-64.png" alt="photo">Nous
+                        répondrons à toutes les questions</div>
+                </div>
+
+                <button data-modal="consultation" class="button button_main"> COMMANDER UNE CONSULTATION</button>
+                <div class="promo__link">
+                    ou
+                    <a href="#">ALLER AU CATALOGUE</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <section class="table_block">
+
+        <div class="container">
+            <div class="title">NOS AVANTAGES</div>
+            <div class="table_block_mini">
+                <div class="figure">
+                    <img src="./images/cup.png" alt="photo">
+                    <span>Partage d'expérience</span> <br>
+                    <div class="text">Nos collaborateurs sont toujours prêts à partager
+                        leur expérience puisqu'ils courent eux-mêmes des marathons, traversent le Bosphore à la nage et
+                        préparent des compétitions de triathlon !</div>
+                </div>
+                <div class="figure">
+                    <img class="figure_icon figure_icon__animated" src="./images/heart.png" alt="photo">
+                    <span>Prendre soin de la santé</span><br>
+                    <div class="text">Nous travaillons pour que vos activités sportives
+                        soient bénéfiques pour votre santé et vous procurent de la joie, à vous et à vos proches !</div>
+
+                </div>
+                <div class="figure">
+                    <img src="./images/shoe.png" alt="photo">
+                    <span>Apprendre à courir</span> <br>
+                    <div class="text">Nous vous aider à apprendre la bonne technique de
+                        course! Nous sommes amis avec la plus grande école de course à pied.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="consultation">
+        <div class="container">
+            <h2 class="title title_left">Obtenir une consultation gratuite <br>
+                sur les cardiofréquencemètres
+            </h2>
+            <div class="consultation_descr">
+                Remplissez simplement le formulaire de demande <br>
+                et nous vous rappellerons dans les 10 minutes.
+            </div>
+            <form id="consultation-form" class="feed-form" action="#">
+                <input name="name" required type="text" placeholder="Prenom">
+                <input name="phone" required placeholder="Telephone">
+                <input name="email" required type="email" placeholder="Email">
+                <button data-modal="consultation" class="button button_submit"> COMMANDER UNE CONSULTATION</button>
+            </form>
+
+        </div>
+    </section>
+
+    <div class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div>
+                    <img src="./images/slide1.png" alt="photo">
+                </div>
+                <div>
+                    <img src="./images/slide1.png" alt="photo">
+                </div>
+                <div>
+                    <img src="./images/slide1.png" alt="photo">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="catalog">
+        <div class="container">
+            <h2 class="title">Catalogue des moniteurs de fréquence cardiaque</h2>
+            <ul class="catalog__tabs">
+                <li class="catalog__tab catalog__tab_active">
+                    <div>Pour le fitness</div>
+                </li>
+                <li class="catalog__tab ">
+                    <div>Pour la course à pied</div>
+                </li>
+                <li class="catalog__tab ">
+                    <div>Pour les triathlons</div>
+                </li>
+            </ul>
+
+
+            <div class="catalog__content catalog__content_active">
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="./images/photo.png" alt="pulsometr" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Cardiofréquencemètre Polar FT1 </div>
+                            <div class="catalog-item__descr">Pour les premiers pas de l'entraînement basé sur la
+                                fréquence
+                                cardiaque</div>
+                            <a href="" class="catalog-item__link">LIRE LA SUITE</a>
+                        </div>
+                        <ul class="catalog-item__list ">
+                            <li>Vous entendrez une alerte sonore vous indiquant la fréquence cardiaque correcte pendant
+                                votre entraînement ;</li>
+                            <li>Vous verrez un affichage graphique informatif de vos zones de fréquence cardiaque cibles
+                                ;</li>
+                            <li>Vous verrez également des informations sur la consommation de calories par séance
+                                d'entraînement ;</li>
+                            <li>Vous pouvez consulter les données de 10 séances d'entraînement maximum.</li>
+                            <a href="#" class="catalog-item__back">Arrière</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">200 euro</div>
+                            <div class="catalog-item__price">150 euro</div>
+                        </div>
+                        <button class="button button__mini">ACHETER</button>
+                    </div>
+                </div>
+
+
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="./images/photo.png" alt="pulsometr" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Cardiofréquencemètre Suunto M2 </div>
+                            <div class="catalog-item__descr">Pour les premiers pas de l'entraînement basé sur la
+                                fréquence
+                                cardiaque</div>
+                            <a href="" class="catalog-item__link">LIRE LA SUITE</a>
+                        </div>
+                        <ul class="catalog-item__list ">
+                            <li>Vous entendrez une alerte sonore vous indiquant la fréquence cardiaque correcte pendant
+                                votre entraînement ;</li>
+                            <li>Vous verrez un affichage graphique informatif de vos zones de fréquence cardiaque cibles
+                                ;</li>
+                            <li>Vous verrez également des informations sur la consommation de calories par séance
+                                d'entraînement ;</li>
+                            <li>Vous pouvez consulter les données de 10 séances d'entraînement maximum.</li>
+                            <a href="#" class="catalog-item__back">Arrière</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">200 euro</div>
+                            <div class="catalog-item__price">150 euro</div>
+                        </div>
+                        <button class="button button__mini">ACHETER</button>
+                    </div>
+                </div>
+
+
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="./images/photo.png" alt="pulsometr" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Cardiofréquencemètre Polar FT1 </div>
+                            <div class="catalog-item__descr">Pour les premiers pas de l'entraînement basé sur la
+                                fréquence
+                                cardiaque</div>
+                            <a href="" class="catalog-item__link">LIRE LA SUITE</a>
+                        </div>
+                        <ul class="catalog-item__list ">
+                            <li>Vous entendrez une alerte sonore vous indiquant la fréquence cardiaque correcte pendant
+                                votre entraînement ;</li>
+                            <li>Vous verrez un affichage graphique informatif de vos zones de fréquence cardiaque cibles
+                                ;</li>
+                            <li>Vous verrez également des informations sur la consommation de calories par séance
+                                d'entraînement ;</li>
+                            <li>Vous pouvez consulter les données de 10 séances d'entraînement maximum.</li>
+                            <a href="#" class="catalog-item__back">Arrière</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">200 euro</div>
+                            <div class="catalog-item__price">150 euro</div>
+                        </div>
+                        <button class="button button__mini">ACHETER</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="./images/photo.png" alt="pulsometr" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Cardiofréquencemètre Polar FT1 </div>
+                            <div class="catalog-item__descr">Pour les premiers pas de l'entraînement basé sur la
+                                fréquence
+                                cardiaque</div>
+                            <a href="" class="catalog-item__link">LIRE LA SUITE</a>
+                        </div>
+                        <ul class="catalog-item__list ">
+                            <li>Vous entendrez une alerte sonore vous indiquant la fréquence cardiaque correcte pendant
+                                votre entraînement ;</li>
+                            <li>Vous verrez un affichage graphique informatif de vos zones de fréquence cardiaque cibles
+                                ;</li>
+                            <li>Vous verrez également des informations sur la consommation de calories par séance
+                                d'entraînement ;</li>
+                            <li>Vous pouvez consulter les données de 10 séances d'entraînement maximum.</li>
+                            <a href="#" class="catalog-item__back">Arrière</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">200 euro</div>
+                            <div class="catalog-item__price">150 euro</div>
+                        </div>
+                        <button class="button button__mini">ACHETER</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="./images/photo.png" alt="pulsometr" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Cardiofréquencemètre Suunto M2 </div>
+                            <div class="catalog-item__descr">Pour les premiers pas de l'entraînement basé sur la
+                                fréquence
+                                cardiaque</div>
+                            <a href="" class="catalog-item__link">LIRE LA SUITE</a>
+                        </div>
+                        <ul class="catalog-item__list ">
+                            <li>Vous entendrez une alerte sonore vous indiquant la fréquence cardiaque correcte pendant
+                                votre entraînement ;</li>
+                            <li>Vous verrez un affichage graphique informatif de vos zones de fréquence cardiaque cibles
+                                ;</li>
+                            <li>Vous verrez également des informations sur la consommation de calories par séance
+                                d'entraînement ;</li>
+                            <li>Vous pouvez consulter les données de 10 séances d'entraînement maximum.</li>
+                            <a href="#" class="catalog-item__back">Arrière</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">200 euro</div>
+                            <div class="catalog-item__price">150 euro</div>
+                        </div>
+                        <button class="button button__mini">ACHETER</button>
+                    </div>
+                </div>
+
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="./images/photo.png" alt="pulsometr" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Cardiofréquencemètre Polar FT1 </div>
+                            <div class="catalog-item__descr">Pour les premiers pas de l'entraînement basé sur la
+                                fréquence
+                                cardiaque</div>
+                            <a href="" class="catalog-item__link">LIRE LA SUITE</a>
+                        </div>
+                        <ul class="catalog-item__list ">
+                            <li>Vous entendrez une alerte sonore vous indiquant la fréquence cardiaque correcte pendant
+                                votre entraînement ;</li>
+                            <li>Vous verrez un affichage graphique informatif de vos zones de fréquence cardiaque cibles
+                                ;</li>
+                            <li>Vous verrez également des informations sur la consommation de calories par séance
+                                d'entraînement ;</li>
+                            <li>Vous pouvez consulter les données de 10 séances d'entraînement maximum.</li>
+                            <a href="#" class="catalog-item__back">Arrière</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">200 euro</div>
+                            <div class="catalog-item__price">150 euro</div>
+                        </div>
+                        <button class="button button__mini">ACHETER</button>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+
+            <div class="catalog__content">
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="./images/photo.png" alt="pulsometr" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Cardiofréquencemètre Polar FT1 </div>
+                            <div class="catalog-item__descr">Pour les premiers pas de l'entraînement basé sur la
+                                fréquence
+                                cardiaque</div>
+                            <a href="" class="catalog-item__link">LIRE LA SUITE</a>
+                        </div>
+                        <ul class="catalog-item__list ">
+                            <li>Vous entendrez une alerte sonore vous indiquant la fréquence cardiaque correcte pendant
+                                votre entraînement ;</li>
+                            <li>Vous verrez un affichage graphique informatif de vos zones de fréquence cardiaque cibles
+                                ;</li>
+                            <li>Vous verrez également des informations sur la consommation de calories par séance
+                                d'entraînement ;</li>
+                            <li>Vous pouvez consulter les données de 10 séances d'entraînement maximum.</li>
+                            <a href="#" class="catalog-item__back">Arrière</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">200 euro</div>
+                            <div class="catalog-item__price">150 euro</div>
+                        </div>
+                        <button class="button button__mini">ACHETER</button>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog__content">
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="./images/photo.png" alt="pulsometr" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Cardiofréquencemètre Polar FT1 </div>
+                            <div class="catalog-item__descr">Pour les premiers pas de l'entraînement basé sur la
+                                fréquence
+                                cardiaque</div>
+                            <a href="" class="catalog-item__link">LIRE LA SUITE</a>
+                        </div>
+                        <ul class="catalog-item__list ">
+                            <li>Vous entendrez une alerte sonore vous indiquant la fréquence cardiaque correcte pendant
+                                votre entraînement ;</li>
+                            <li>Vous verrez un affichage graphique informatif de vos zones de fréquence cardiaque cibles
+                                ;</li>
+                            <li>Vous verrez également des informations sur la consommation de calories par séance
+                                d'entraînement ;</li>
+                            <li>Vous pouvez consulter les données de 10 séances d'entraînement maximum.</li>
+                            <a href="#" class="catalog-item__back">Arrière</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">200 euro</div>
+                            <div class="catalog-item__price">150 euro</div>
+                        </div>
+                        <button class="button button__mini">ACHETER</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="./images/photo.png" alt="pulsometr" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Cardiofréquencemètre Polar FT1 </div>
+                            <div class="catalog-item__descr">Pour les premiers pas de l'entraînement basé sur la
+                                fréquence
+                                cardiaque</div>
+                            <a href="" class="catalog-item__link">LIRE LA SUITE</a>
+                        </div>
+                        <ul class="catalog-item__list ">
+                            <li>Vous entendrez une alerte sonore vous indiquant la fréquence cardiaque correcte pendant
+                                votre entraînement ;</li>
+                            <li>Vous verrez un affichage graphique informatif de vos zones de fréquence cardiaque cibles
+                                ;</li>
+                            <li>Vous verrez également des informations sur la consommation de calories par séance
+                                d'entraînement ;</li>
+                            <li>Vous pouvez consulter les données de 10 séances d'entraînement maximum.</li>
+
+                            <a href="#" class="catalog-item__back">Arrière</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">200 euro</div>
+                            <div class="catalog-item__price">150 euro</div>
+                        </div>
+                        <button class="button button__mini">ACHETER</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section class="commentaire">
+        <div class="container">
+            <div class="title title__commentaire">feedback des clients</div>
+            <div class="commentaire__wrapper">
+                <div class="commentaire__blocks">
+                    <div class="commentaire__block animate__animated animate__fadeInUp  wow " data-wow-duration="2s"
+                        data-wow-delay="1s">
+                        <img src="./images/photo_1.png" alt="photo">
+                        <div class="commentaire__name">Irina Ivanchenko </div>
+                        <div class="commentaire__marafone">2 semi-marathons</div>
+                        <div class="commentaire__feedback">Je ne savais pas quoi acheter et j'ai contacté les gens de
+                            RunSmart qui m'ont trouvé un cardiofréquencemètre adapté à mes objectifs et à mes moyens
+                            financiers.
+                            Après un certain temps, j'ai décidé de mettre à jour mon gadget et je n'ai pas hésité à les
+                            contacter. Nouveaux objectifs - nouveau gadget !
+                            <br> <br>
+                            Merci, RunSmart !
+                        </div>
+                    </div>
+
+
+
+                    <div class="commentaire__block animate__animated animate__fadeInUp  wow " data-wow-duration="2s"
+                        data-wow-delay="1s">
+                        <img src="./images/photo_2.png" alt="photo">
+                        <div class="commentaire__name">Ivan Semochkin</div>
+                        <div class="commentaire__marafone">1 semi-marathon</div>
+                        <div class="commentaire__feedback">Gadget génial - le cardiofréquencemètre. J'avais l'habitude
+                            de courir sans. Il s'avère que je n'ai fait qu'aggraver mon cas. J'ai acheté un
+                            cardiofréquencemètre et j'ai reçu un entraînement en cadeau. J'ai fait ma première séance
+                            d'entraînement ensemble et on m'a appris à utiliser le nouveau gadget. Ils m'ont également
+                            expliqué les bases de l'anatomie et ont établi un plan d'entraînement pour le mois à venir.
+                            Je me suis préparée pour mon premier semi-marathon grâce à eux ! <br> <br>
+                            Je les remercie !</div>
+                    </div>
+
+
+
+                    <div class="commentaire__block animate__animated animate__fadeInUp  wow " data-wow-duration="2s"
+                        data-wow-delay="1s">
+                        <img src="./images/photo_3.png" alt="photo">
+                        <div class="commentaire__name">Julia Dashkina</div>
+                        <div class="commentaire__marafone">2 semi-marathons</div>
+                        <div class="commentaire__feedback">Je n'ai pas pu commencer à courir pendant longtemps parce que
+                            j'avais commencé plusieurs fois auparavant, mais c'était devenu difficile et j'ai abandonné.
+                            J'ai entendu parler de RunSmart et du contrôle de la fréquence cardiaque par des amis et
+                            j'ai décidé d'essayer.
+                            Appelés, les gars se sont renseignés sur mes objectifs et ont choisi une option très
+                            intéressante à prix réduit ! Maintenant, je cours et j'apprécie ma course ! J'ai déjà couru
+                            2 demi-marathons et quelques courses plus courtes et je n'ai pas l'intention d'arrêter !
+                            <br> <br>
+                            Je vous remercie !
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.189730985969!2d36.33389019302699!3d50.02654054435479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a77cd20fbb4b%3A0xacc88ede2cccb7aa!2sAkademika%20Pavlova%20St%2C%20160%2C%20Kharkiv%2C%20Kharkivs&#39;ka%20oblast%2C%20Ukraine%2C%2061000!5e0!3m2!1sfr!2sfr!4v1683712668525!5m2!1sfr!2sfr"
+                width="100%" height="630" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="footer__info">
+            <adress class="footer__adr">Akademika Pavlova St, 160, Kharkiv, Kharkivs'ka oblast, Ukraine, 61000</adress>
+            <a class="footer__phone" href="tel:+33852070595">+(33) 85 20 70 59 </a>
+            <div class="footer__social">
+                <a class="footer__social-item">
+                    <img src="./images/Vector.png" alt="icons"> </a>
+                <a class="footer__social-item">
+                    <img src="./images/instagram.png" alt="icons"> </a>
+                <a class="footer__social-item">
+                    <img src="./images/p.png" alt="icons"> </a>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+    <div class="overlay">
+        <div class="modal" id="consultation">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Il suffit de remplir le formulaire de demande</div>
+            <div class="modal__descr">
+                et nous vous rappellerons dans les 10 minutes.
+            </div>
+            <form class="feed-form feed-form__mt25" action="#">
+                <input name="name" type="text" placeholder="Prenom">
+                <input name="phone" placeholder="Telephone">
+                <input name="email" type="email" placeholder="Email">
+                <button data-modal="consultation" class="button button_submit"> COMMANDER UNE CONSULTATION</button>
+            </form>
+        </div>
+
+
+
+        <div class="modal" id="order">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Votre commande :</div>
+            <div class="modal__descr">
+                Polar FT1 heart rate monitor
+            </div>
+            <form class="feed-form feed-form__mt25" action="#">
+                <input name="name" required type="text" placeholder="Prenom">
+                <input name="phone" required placeholder="Telephone">
+                <input name="email" required type="email" placeholder="Email">
+                <button class="button button_submit"> ACHETER</button>
+            </form>
+
+
+        </div>
+        <div class="modal modal_mini" id="thanks">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Nous vous remercions de votre demande !</div>
+            <div class="modal__descr">
+                Notre responsable vous contactera dans les plus brefs délais !
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+    <a href="#up" class="pageup">
+        <img src="./images/circle-chevron-up-solid.svg" alt="up"></a>
+
+
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/jquery.inputmask.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script src="./js/script.js"></script>
+
+
+</body>
+
+</html>

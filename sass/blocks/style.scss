@@ -1,0 +1,24 @@
+@import "../base/animation";
+@import "../base/variables";
+
+@import "./header";
+@import "./promo";
+@import "./buttons";
+@import "./table_block";
+@import "../blocks/title";
+@import "../blocks/consultation";
+@import "../blocks/forms";
+@import "../blocks/carousel";
+@import "../blocks/catalog";
+@import "../blocks/commentaire";
+@import "../blocks/footer";
+@import "../blocks/media";
+@import "../blocks/modal";
+@import "../blocks/modal";
+@import "../blocks/pageup";
+
+.container{
+        max-width: 950px;
+        margin: 0 auto;
+    }
+ 
